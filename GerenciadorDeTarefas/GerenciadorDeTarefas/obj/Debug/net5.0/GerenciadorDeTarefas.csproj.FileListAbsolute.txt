@@ -27,3 +27,10 @@ C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTa
 C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\ref\GerenciadorDeTarefas.dll
 C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\GerenciadorDeTarefas.pdb
 C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\obj\Debug\net5.0\GerenciadorDeTarefas.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Documents\GitHub\Gerenciador-de-Tarefas-em-C-Sharp\GerenciadorDeTarefas\GerenciadorDeTarefas\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
