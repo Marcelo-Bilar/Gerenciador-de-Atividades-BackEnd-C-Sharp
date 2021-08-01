@@ -9,5 +9,7 @@ namespace GerenciadorDeTarefas.Dtos
     {
         public int Status { get; set; }
         public string Erro { get; set; }
+
+        public List<string> Erros { get; set; }
     }
 }

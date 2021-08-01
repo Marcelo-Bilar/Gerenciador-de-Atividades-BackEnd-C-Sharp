@@ -11,5 +11,10 @@ namespace GerenciadorDeTarefas.Models
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
+
+        internal static void Add(Usuario usuario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
