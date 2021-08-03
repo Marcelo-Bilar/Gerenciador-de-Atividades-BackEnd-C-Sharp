@@ -19,14 +19,12 @@ namespace GerenciadorDeTarefas.Controllers
     public class UsuarioController : BaseController
     {
         private readonly ILogger<UsuarioController> _logger;
-        private readonly IUsuarioRepository _usuarioRepository;
 
         public UsuarioController(ILogger<UsuarioController> logger, 
-            IUsuarioRepository usuarioRepository)
+            IUsuarioRepository usuarioRepository) : base(usuarioRepository)
         {
 
             _logger = logger;
-            _usuarioRepository = usuarioRepository;
         }
 
         [HttpPost]
@@ -78,7 +76,7 @@ namespace GerenciadorDeTarefas.Controllers
             catch(Exception e)
             {
                 _logger.LogError("Ocorreu erro ao salvar usuário", e);
-                return this.StatusCode(StatusCodes.Status500InternalServerError, new ErroRespostaDto()
+                return StatusCode(StatusCodes.Status500InternalServerError, new ErroRespostaDto()
                 {
                     Status = StatusCodes.Status500InternalServerError,
                     Erro = "Ocorreu erro ao salvar usuário, tente novamente"

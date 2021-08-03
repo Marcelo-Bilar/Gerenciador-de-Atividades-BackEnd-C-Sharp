@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace GerenciadorDeTarefas.Models
@@ -12,9 +13,7 @@ namespace GerenciadorDeTarefas.Models
         public string Email { get; set; }
         public string Senha { get; set; }
 
-        internal static void Add(Usuario usuario)
-        {
-            throw new NotImplementedException();
-        }
+        [JsonIgnore]
+        public virtual ICollection<Tarefa> Tarefas { get; private set; }
     }
 }

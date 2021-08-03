@@ -19,14 +19,12 @@ namespace GerenciadorDeTarefas.Controllers
     public class LoginController : BaseController
     {
         private readonly ILogger<LoginController> _logger;
-        private readonly IUsuarioRepository _usuarioRepository;
 
 
         public LoginController(ILogger<LoginController> logger, 
-            IUsuarioRepository usuarioRepository)
+            IUsuarioRepository usuarioRepository) : base(usuarioRepository)
         {
             _logger = logger;
-            _usuarioRepository = usuarioRepository;
         } 
 
         [HttpPost]
@@ -38,7 +36,6 @@ namespace GerenciadorDeTarefas.Controllers
                 if(requisicao == null
                     || string.IsNullOrEmpty(requisicao.Login) || string.IsNullOrWhiteSpace(requisicao.Login)
                     || string.IsNullOrEmpty(requisicao.Senha) || string.IsNullOrWhiteSpace(requisicao.Senha))
-
                 {
                     return BadRequest(new ErroRespostaDto()
                     {
@@ -48,6 +45,7 @@ namespace GerenciadorDeTarefas.Controllers
                 }
 
                 var usuario = _usuarioRepository.GetUsuarioByLoginSenha(requisicao.Login, MD5Utils.GerarHashMD5(requisicao.Senha));
+
 
                 if(usuario == null)
                 {

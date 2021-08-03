@@ -1,5 +1,6 @@
 using GerenciadorDeTarefas.Models;
 using GerenciadorDeTarefas.Repository;
+using GerenciadorDeTarefas.Repository.Impl;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -61,6 +62,8 @@ namespace GerenciadorDeTarefas
             services.AddCors();
 
             services.AddScoped<IUsuarioRepository, UsuarioRepositoryImpl>();
+            services.AddScoped<ITarefaRepository, TarefaRepositoryImpl>();
+
         }
 
 
