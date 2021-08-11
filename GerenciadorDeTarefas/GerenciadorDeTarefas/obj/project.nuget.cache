@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+TNT2ilsHFc+zb907Y1x/ol/L6PAyeItEqc8o1RZrDtkWvgqCTR+c+0udp/yiM9WhL9BNt6mcVWEJvbF50OyIw==",
+  "dgSpecHash": "dpdInOWJxAUBMw2Zzv3fagOhmFQ/MkX9IM+NdFkvNZNIXmDbiNewDF2cJZ0F2xDr7Q6bqd7mpgmCXBJhuNvkUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Gerenciador-de-Tarefas-em-C-Sharp\\GerenciadorDeTarefas\\GerenciadorDeTarefas\\GerenciadorDeTarefas.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Gerenciador-de-Atividades-C-Sharp\\GerenciadorDeTarefas\\GerenciadorDeTarefas\\GerenciadorDeTarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
